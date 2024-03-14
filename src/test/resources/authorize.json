@@ -1,0 +1,34 @@
+[
+  {
+    "group": "example",
+    "allowedIndexes": [
+      "example-one",
+      "example-two",
+      "example-three"
+    ]
+  },
+  {
+    "group": "specific",
+    "allowedIndexes": [
+      "example-two"
+    ]
+  },
+  {
+    "group": "all-access",
+    "allowedIndexes": [
+      "*"
+    ]
+  },
+  {
+    "group": "no-access",
+    "allowedIndexes": [
+      ""
+    ]
+  },
+  {
+    "group": "",
+    "allowedIndexes": [
+      "no-group"
+    ]
+  }    
+]
